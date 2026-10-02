@@ -14,19 +14,21 @@ AgileSDD Plus keeps the agile loop as the backbone and imports only the quality 
 ## Quick start
 
 ```bash
-npx create-agile-sdd-plus my-project
+npx github:DaniRZ10/AgileSDD_Plus my-project
 cd my-project
 ```
+
+> Not published on npm yet: install it straight from GitHub (requires Git and Node 18+).
 
 Then open your agent (Claude Code, Antigravity or OpenCode) and type `/sdd`. The agent reads the roadmap, sees that `EPIC0` is in `implement`, and starts interviewing you to fill the specs, architecture and roadmap. It does not guess: the scaffold files are placeholders.
 
 Options:
 
 ```bash
-npx create-agile-sdd-plus . --force                    # install into an existing repo, overwriting scaffold files
-npx create-agile-sdd-plus my-project --yes             # no prompts, recommended defaults
-npx create-agile-sdd-plus my-project --no-skills       # only the mandatory grill-me skill
-npx create-agile-sdd-plus my-project --platforms claude,antigravity   # or all / none
+npx github:DaniRZ10/AgileSDD_Plus . --force                    # install into an existing repo, overwriting scaffold files
+npx github:DaniRZ10/AgileSDD_Plus my-project --yes             # no prompts, recommended defaults
+npx github:DaniRZ10/AgileSDD_Plus my-project --no-skills       # only the mandatory grill-me skill
+npx github:DaniRZ10/AgileSDD_Plus my-project --platforms claude,antigravity   # or all / none
 ```
 
 Existing files are never overwritten unless you pass `--force`.

@@ -14,17 +14,19 @@ AgileSDD Plus mantiene el ciclo ágil como columna vertebral e incorpora solo lo
 ## Inicio rápido
 
 ```bash
-npx create-agile-sdd-plus mi-proyecto
+npx github:DaniRZ10/AgileSDD_Plus mi-proyecto
 cd mi-proyecto
 ```
+
+> Aún no está publicado en npm: se instala directamente desde GitHub (requiere Git y Node 18 o superior).
 
 Abre tu agente (Claude Code, Antigravity u OpenCode) y escribe `/sdd`. El agente lee el roadmap, ve que `EPIC0` está en `implement` y empieza a entrevistarte para rellenar specs, arquitectura y roadmap. No adivina nada: los ficheros del scaffold son plantillas.
 
 ```bash
-npx create-agile-sdd-plus . --force                      # instalar en un repo existente sobrescribiendo el scaffold
-npx create-agile-sdd-plus mi-proyecto --yes              # sin preguntas, valores recomendados
-npx create-agile-sdd-plus mi-proyecto --no-skills        # solo la skill obligatoria grill-me
-npx create-agile-sdd-plus mi-proyecto --platforms claude,antigravity   # o all / none
+npx github:DaniRZ10/AgileSDD_Plus . --force                      # instalar en un repo existente sobrescribiendo el scaffold
+npx github:DaniRZ10/AgileSDD_Plus mi-proyecto --yes              # sin preguntas, valores recomendados
+npx github:DaniRZ10/AgileSDD_Plus mi-proyecto --no-skills        # solo la skill obligatoria grill-me
+npx github:DaniRZ10/AgileSDD_Plus mi-proyecto --platforms claude,antigravity   # o all / none
 ```
 
 Nunca se sobrescriben ficheros existentes salvo con `--force`.
