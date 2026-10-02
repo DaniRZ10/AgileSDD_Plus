@@ -1,0 +1,5 @@
+# Keep LF in the repository; Git converts on checkout where configured.
+* text=auto eol=lf
+*.cjs text eol=lf
+*.md text eol=lf
+*.json text eol=lf

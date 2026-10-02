@@ -1,0 +1,10 @@
+# Dependencies and package output
+node_modules/
+*.tgz
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
